@@ -1,3 +1,6 @@
+# Questionable Content Scraper
+#
+# Use Python3+
 import signal, sys, requests, bs4, os
 signal.signal(signal.SIGINT, lambda x,y: sys.exit(0))
 
